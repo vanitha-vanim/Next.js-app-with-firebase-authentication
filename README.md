@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## 
+
+<!-- I've created this app using Higher-Order Components (HOCs)which are a pattern where you wrap a component with another component to provide additional props or behavior. In the context of authentication, you can create an HOC that adds authentication-related props to a component, such as the user object, sign-in, or sign-out functions.
+You use HOCs by applying them to a component. For example, you might have a withAuth HOC that you wrap around a component to enhance it with authentication capabilities. Further, HOCs are flexible and can be applied to individual components as needed. You can wrap different components with different HOCs to provide various levels of authentication or authorization. 
+This app contains fitebase authetications that has to be set up in google console. Makesure you follow steps to setup personal configurations.
+Go to the Firebase Console (https://console.firebase.google.com/) and create a new project. Once the project is created, navigate to "Authentication" in the left sidebar and set up your authentication methods, such as Email/Password, Google, or etcc.
+
+-Vanitha Maheshwaran
+-->
+
 ## Getting Started
 
 First, run the development server:

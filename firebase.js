@@ -2,13 +2,13 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC3-9UYeKoYYsFUg8Uk2Yibvx9YCuBxhpo",
-    authDomain: "monashcurry-f05b5.firebaseapp.com",
-    projectId: "monashcurry-f05b5",
-    storageBucket: "monashcurry-f05b5.appspot.com",
-    messagingSenderId: "348692589101",
-    appId: "1:348692589101:web:7dba4310ab117a052aa6a4",
-    measurementId: "G-T1VXBFMVWE"
+    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+    measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
 
 const app = initializeApp(firebaseConfig);
