@@ -1,0 +1,40 @@
+/* components/Auth/SignIn.module.css */
+
+.signInContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .formInput {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .signInButton {
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .signInContainer > form > input {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .signInContainer > form > button {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .signInContainer > a {
+    margin: 10px auto;
+    display: block;
+  }
