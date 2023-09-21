@@ -11,4 +11,6 @@ function AuthenticatedDashboard() {
   );
 }
 
-export default withAuth(AuthenticatedDashboard);
+// export default withAuth(AuthenticatedDashboard);
+export default withAuth(AuthenticatedDashboard, ['admin']);
+
