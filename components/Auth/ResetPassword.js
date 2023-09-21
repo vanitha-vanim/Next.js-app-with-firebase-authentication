@@ -13,7 +13,11 @@ function ResetPassword() {
       await sendPasswordResetEmail(authInstance, email);
       setIsResetSent(true);
     } catch (error) {
-      console.error(error.message);
+      if (error.code === 'auth/user-not-found') {
+        console.error('User not found. Please check your email address.');
+      } else {
+        console.error(error.message);
+      }
     }
   };
 
